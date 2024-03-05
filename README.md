@@ -1,7 +1,5 @@
 # queries
 
-CS advance search
-The detected instance of AdobeARM.exe on the user's device is considered benign and part of normal operation (ARM, Adobe Reader and Acrobat Manager; is part of the Adobe Acrobat Update Service). 
-The executable is verified to be legitimately signed by Adobe System Incorporated. Both AcroServicesUpdater2_x86.exe and RdrServicesUpdater2_x86.exe execute from AdobeARM.exe
-There is no indication of malicious activity associated with this file on the user's device, however as of 06/03/2024, 8 vendors in virus total find RdrServicesUpdater2_x86.exe suspicious.
-No action required. Continue to monitor for any unsual activities.
+###CS advance search
+
+The instance of AdobeARM.exe detected on the user's device is considered benign and is a part of normal operation, as it is associated with the Adobe Acrobat Update Service (Adobe Reader and Acrobat Manager, or ARM). The executable is confirmed to be legitimately signed by Adobe Systems Incorporated. Both AcroServicesUpdater2_x86.exe and RdrServicesUpdater2_x86.exe are executed by AdobeARM.exe. As of 06/03/2024, there is no evidence of malicious activity linked to this file on the user's device. However, it is worth noting that 8 vendors on VirusTotal have flagged RdrServicesUpdater2_x86.exe as suspicious. No immediate action is required, but continued monitoring for any unusual activities is recommended.
