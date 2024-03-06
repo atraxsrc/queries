@@ -7,6 +7,6 @@ The instance of AdobeARM.exe detected on the user's device is considered benign 
 
 
 #$userlist = import-file -path c:\temp\userlist.txt
-$userlist="VP33428", "V290694", "VP32928", "V291895", "V278383", "V175080", "V303467", "VP41675"
+$userlist="VP**", "VP**", "VP", "VP"
 $results = foreach ($user in $userlist) { get-aduser -Identity $user -Properties SamAccountName, Enabled, LastLogonDate, PasswordLastSet }
 $results | Export-CSV -LiteralPath C:\TEMP\User-Password-LastSet.csv -NoClobber -NoTypeInformation
