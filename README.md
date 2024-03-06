@@ -29,4 +29,7 @@ file://89.117.2.34/4qp/8Y.txt 
 
 
 
+C:\Windows\system32\wbem\wmiprvse.exe∅-Embedding
+
+
 (destination.ip: "103.124.104.22" OR destination.ip: "103.124.104.76" OR destination.ip: "103.124.105.208" OR destination.ip: "103.124.105.233" OR destination.ip: "103.124.106.224" OR destination.ip: "104.129.20.167" OR destination.ip: "146.19.213.36" OR destination.ip: "155.94.208.137" OR destination.ip: "176.123.2.146" OR destination.ip: "66.63.188.19" OR destination.ip: "85.239.33.149" OR destination.ip: "89.117.1.160" OR destination.ip: "89.117.1.161" OR destination.ip: "89.117.2.33" OR destination.ip: "89.117.2.34") 
