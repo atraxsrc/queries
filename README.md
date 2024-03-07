@@ -37,3 +37,5 @@ file://89.117.2.34/4qp/8Y.txt 
 C:\Windows\system32\wbem\wmiprvse.exe∅-Embedding
 
 Based on our analysis, we consider the execution of wmiprvse.exe -Embedding to be benign. This command is a normal part of the Windows operating system's management infrastructure. There are no indications of suspicious behavior in this context, and we do not identify any immediate security threats from this activity. We will continue to monitor for any further unusual activities.
+---
+The file look like temp libraries that are being built when the app executes. They should disappear once execution stops. Microsoft doesn't always clean up after itself. I have been working on apps similar to the current one for years. It's just recently that these alerts are coming up. In anycase this project will likely take at least 1 year to complete if not more.
