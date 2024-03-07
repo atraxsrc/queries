@@ -37,5 +37,21 @@ file://89.117.2.34/4qp/8Y.txt 
 C:\Windows\system32\wbem\wmiprvse.exe∅-Embedding
 
 Based on our analysis, we consider the execution of wmiprvse.exe -Embedding to be benign. This command is a normal part of the Windows operating system's management infrastructure. There are no indications of suspicious behavior in this context, and we do not identify any immediate security threats from this activity. We will continue to monitor for any further unusual activities.
+
+
+---
+
+Here's a revised version of the note with a more cohesive and inclusive tone:
+
+We have observed alerts in CrowdStrike related to the execution of VBCSCompiler.exe every time Visual Studio is opened. This executable is associated with the Roslyn Compiler used for compiling C# and Visual Basic projects. The user has noted that these alerts seem to be triggered by temporary libraries that are built during application execution. Although these files are expected to disappear once execution stops, Microsoft does not always clean up these files properly.
+
+The user has been working on similar applications for years and mentioned that these alerts have only started appearing recently. The current project is expected to take at least 1 year to complete, if not more.
+
+To address this issue, we will:
+
+Verify that VBCSCompiler.exe is a legitimate part of the Visual Studio installation and not a malicious file.
+Check if there have been any recent updates or changes to the CrowdStrike configuration that may have led to the increased sensitivity to VBCSCompiler.exe.
+Consider adding an exception for VBCSCompiler.exe in the CrowdStrike policy if it is confirmed to be a false positive and necessary for the user's development workflow.
+Monitor the situation and reassess if the alerts persist or if there are any changes to the user's development environment.
 ---
 The file look like temp libraries that are being built when the app executes. They should disappear once execution stops. Microsoft doesn't always clean up after itself. I have been working on apps similar to the current one for years. It's just recently that these alerts are coming up. In anycase this project will likely take at least 1 year to complete if not more.
