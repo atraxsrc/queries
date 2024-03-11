@@ -59,3 +59,10 @@ The file look like temp libraries that are being built when the app executes. Th
 ---
 
 get-aduser -filter {UserPrincipalName -eq "email" or "UserName"} -prop PasswordLastSet, PasswordExpired, LastLogonDate
+
+
+#$userlist = import-file -path c:\temp\userlist.txt
+$userlist="000", "000", "000"
+$results = foreach ($user in $userlist) { get-aduser -Identity $user -Properties SamAccountName, Enabled, LastLogonDate, PasswordLastSet }
+$results | Export-CSV -LiteralPath C:\TEMP\User-Password-LastSet.csv -NoClobber -NoTypeInformation
+
