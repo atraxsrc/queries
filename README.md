@@ -79,4 +79,6 @@ The above argument injects AppVIsvSubsystems32.dll into the running process with
 
 The impacting patch: Office 365 Client Update - Monthly Channel (Targeted) Version 1909 for x64 based Edition (Build 12026.20320)
 
+"C:\WINDOWS\system32\SearchProtocolHost.exe" Global\UsGthrFltPipeMssGthrPipe4_ Global\UsGthrCtrlFltPipeMssGthrPipe4 1 -2147483646 "Software\Microsoft\Windows Search" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)" "C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc" "DownLevelDaemon" 
+
 Typically, you would only see MavInject32.exe loading DLLs from the system folder (oddly it's mostly audio drivers and similar) or trying to inject an attacker module into a running process as part of Defense Evasion/Execution.
