@@ -82,3 +82,5 @@ The impacting patch: Office 365 Client Update - Monthly Channel (Targeted) Versi
 "C:\WINDOWS\system32\SearchProtocolHost.exe" Global\UsGthrFltPipeMssGthrPipe4_ Global\UsGthrCtrlFltPipeMssGthrPipe4 1 -2147483646 "Software\Microsoft\Windows Search" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)" "C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc" "DownLevelDaemon" 
 
 Typically, you would only see MavInject32.exe loading DLLs from the system folder (oddly it's mostly audio drivers and similar) or trying to inject an attacker module into a running process as part of Defense Evasion/Execution.
+
+Upon investigation, the alerts triggered by MavInject32.exe, clicktorun.exe, and SearchProtocolHost.exe are consistent with legitimate behavior associated with a Microsoft Office update and standard Windows Search operations. The observed command-line arguments and process activities align with known benign routines and do not exhibit malicious characteristics. Consequently, this incident alert in CrowdStrike can be confidently closed as a false positive, with no further action required.
