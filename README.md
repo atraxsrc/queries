@@ -66,3 +66,17 @@ $userlist="000", "000", "000"
 $results = foreach ($user in $userlist) { get-aduser -Identity $user -Properties SamAccountName, Enabled, LastLogonDate, PasswordLastSet }
 $results | Export-CSV -LiteralPath C:\TEMP\User-Password-LastSet.csv -NoClobber -NoTypeInformation
 
+---
+
+So the file MavInject32.exe is developed by Microsoft, native to the Windows operating system, and is used to inject DLLs into running processes. As MavInject32.exe can be used in a malicious manner (see: https://attack.mitre.org/techniques/T1218/) Falcon has logic to observe and alert upon its behavior.
+
+The detections for MavInject32.exe you're referencing were triggered by a Microsoft update that leverages the file in a previously unseen way.
+
+You may notice command line arguments in detections that look as follows:
+
+"C:\Program Files\Common Files\Microsoft Shared\ClickToRun\mavinject32.exe" 10808 "C:\Program Files (x86)\Microsoft Office\root\Client\AppVIsvSubsystems32.dll" 1
+The above argument injects AppVIsvSubsystems32.dll into the running process with PID 10808 and is part of some new Microsoft Office routine. We've updated the logic to account for this and sorry about the extra alerts this morning.
+
+The impacting patch: Office 365 Client Update - Monthly Channel (Targeted) Version 1909 for x64 based Edition (Build 12026.20320)
+
+Typically, you would only see MavInject32.exe loading DLLs from the system folder (oddly it's mostly audio drivers and similar) or trying to inject an attacker module into a running process as part of Defense Evasion/Execution.
