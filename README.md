@@ -55,3 +55,7 @@ Consider adding an exception for VBCSCompiler.exe in the CrowdStrike policy if i
 Monitor the situation and reassess if the alerts persist or if there are any changes to the user's development environment.
 ---
 The file look like temp libraries that are being built when the app executes. They should disappear once execution stops. Microsoft doesn't always clean up after itself. I have been working on apps similar to the current one for years. It's just recently that these alerts are coming up. In anycase this project will likely take at least 1 year to complete if not more.
+
+---
+
+get-aduser -filter {UserPrincipalName -eq "email" or "UserName"} -prop PasswordLastSet, PasswordExpired, LastLogonDate
