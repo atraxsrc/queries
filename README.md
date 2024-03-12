@@ -1,4 +1,4 @@
-![image](https://github.com/atraxsrc/queries/assets/92285717/cdc7b9cd-2788-4fcb-a136-9e9f2574f1c2)# queries
+
 
 ###CS advance search
 
