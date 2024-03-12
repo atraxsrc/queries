@@ -124,4 +124,8 @@ AnyDesk.exe
 DWAgent.exe
 AcRes.exe
 
-
+(ProcessName == 'winit.exe' and CommandLine contains 'rclone') or
+ProcessName == 'WizTree64.exe' or
+(ProcessName == 'svchost.exe' and CommandLine contains 'rclone') or
+ProcessName == 'AnyDesk.exe' or
+ProcessName == 'DWAgent.exe'
