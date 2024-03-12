@@ -129,3 +129,6 @@ ProcessName == 'WizTree64.exe' or
 (ProcessName == 'svchost.exe' and CommandLine contains 'rclone') or
 ProcessName == 'AnyDesk.exe' or
 ProcessName == 'DWAgent.exe'
+
+
+(cmdline:'winit.exe' AND cmdline:'rclone') OR proc_path:'WizTree64.exe' OR (cmdline:'svchost.exe' AND cmdline:'rclone') OR proc_path:'AnyDesk.exe' OR proc_path:'DWAgent.exe'
