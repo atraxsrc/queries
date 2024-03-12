@@ -67,7 +67,35 @@ $results = foreach ($user in $userlist) {
 
 $results | Export-Csv -LiteralPath "C:\Users\myname\OneDrive - COMPANY\Documents\User-Password-LastSet.csv" -NoTypeInformation
 
+# How to Query Active Directory and Export User Information Using PowerShell
 
+## Creating the User List File:
+
+1. **Open Notepad or any text editor.**
+2. **Enter the user IDs (SamAccountName), each on a new line.** For example:
+3. **Save the file as `userlist.txt` in a directory of your choice.** For example, you can save it in any directory like `C:\TEMP` or your OneDrive folder.
+
+## Running the PowerShell Script:
+
+1. **Open PowerShell.**
+2. **Copy and paste the following script into the PowerShell window:**
+```powershell
+$userlist = Get-Content -Path "\pathtoyourfile\userlist.txt"
+
+$results = foreach ($user in $userlist) {
+    Get-ADUser -Identity $user -Properties SamAccountName, Enabled, LastLogonDate, PasswordLastSet |
+    Select-Object SamAccountName, Enabled, LastLogonDate, PasswordLastSet
+}
+
+$results | Export-Csv -LiteralPath "\pathtoyourfile\User-Password-LastSet.csv" -NoTypeInformation
+```
+Replace \pathtoyourfile\ with the actual path to your userlist.txt file.
+3. Press Enter to run the script.
+
+The results will be exported to a CSV file named User-Password-LastSet.csv in the same directory as your userlist.txt file.
+Notes:
+Make sure that the PowerShell execution policy allows you to run scripts. You can check the execution policy by running Get-ExecutionPolicy in PowerShell.
+If you encounter any issues with the file path, ensure that the file is fully synced and available locally on your computer, especially when using cloud storage like OneDrive.
 ---
 
 So the file MavInject32.exe is developed by Microsoft, native to the Windows operating system, and is used to inject DLLs into running processes. As MavInject32.exe can be used in a malicious manner (see: https://attack.mitre.org/techniques/T1218/) Falcon has logic to observe and alert upon its behavior.
