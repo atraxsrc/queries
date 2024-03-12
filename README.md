@@ -1,4 +1,4 @@
-# queries
+![image](https://github.com/atraxsrc/queries/assets/92285717/cdc7b9cd-2788-4fcb-a136-9e9f2574f1c2)# queries
 
 ###CS advance search
 
@@ -114,3 +114,14 @@ The impacting patch: Office 365 Client Update - Monthly Channel (Targeted) Versi
 Typically, you would only see MavInject32.exe loading DLLs from the system folder (oddly it's mostly audio drivers and similar) or trying to inject an attacker module into a running process as part of Defense Evasion/Execution.
 
 Upon investigation, the alerts triggered by MavInject32.exe, clicktorun.exe, and SearchProtocolHost.exe are consistent with legitimate behavior associated with a Microsoft Office update and standard Windows Search operations. The observed command-line arguments and process activities align with known benign routines and do not exhibit malicious characteristics. Consequently, this incident alert in CrowdStrike can be confidently closed as a false positive, with no further action required.
+
+---
+
+winit.exe rclone
+WizTree64.exe
+svchost.exe rclone
+AnyDesk.exe
+DWAgent.exe
+AcRes.exe
+
+
