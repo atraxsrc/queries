@@ -1,5 +1,4 @@
-Document Title: Overview of DekkoSecure and Whitelist Request for DekkoSecure Meetings
-
+Overview of DekkoSecure and Whitelist Request for DekkoSecure Meetings
 Date: [Insert Date]
 
 Prepared by: [Your Name]
@@ -29,16 +28,14 @@ Browser Policies:
 
 Allow cookies from au.dekko.io.
 Allow cookies from au-api-core.dekko.io.
-Risks and Considerations:
-
+Risks and Considerations
 Whitelisting the specified URLs and opening the required ports may potentially introduce security risks if not properly managed. It is crucial to ensure that the whitelisted domains are legitimate and trusted.
 Opening UDP ports 10000-20000 for SRTP traffic should be carefully evaluated to ensure it does not conflict with other applications or services running on the network.
 Regularly monitor and review the whitelisted URLs and opened ports to ensure they remain necessary and do not introduce any vulnerabilities.
 Statement
 As part of the Governance, Risk, and Compliance (GRC) team, this document provides an overview of the privacy and security controls of DekkoSecure and outlines the necessary configurations for DekkoSecure Meetings. It is important to note that this document does not constitute a decision to whitelist the requested URLs and configurations. The final decision will be made by the appropriate decision-making body within our organization, taking into account the security and operational requirements.
 
-Next Steps:
-
+Next Steps
 Review and validate the information provided in this document with relevant stakeholders, including IT security, legal, and compliance teams.
 Conduct a thorough risk assessment to evaluate the potential impact of whitelisting the specified URLs and opening the required ports.
 Obtain necessary approvals from the appropriate decision-making body within the organization.
@@ -46,7 +43,3 @@ Implement the approved whitelisting configurations and establish monitoring and 
 Provide training and guidance to users on the secure usage of DekkoSecure Meetings and the importance of protecting sensitive information.
 Conclusion
 In conclusion, DekkoSecure offers a secure platform for communication and collaboration, with robust privacy and security controls in place. The whitelisting of specific URLs and network configurations is necessary for the optimal functionality of DekkoSecure Meetings within our organization. This document serves as an overview and recommendation, highlighting the key considerations and next steps. The final decision will be made in accordance with our organization's security policies and procedures, prioritizing the protection of sensitive data and maintaining a secure environment.
-
-[Your Name]
-[Your Position]
-[Your Department]
