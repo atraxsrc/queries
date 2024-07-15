@@ -1,115 +1,117 @@
-hotheads.co.za
-ledge.ai
-americancompass.org
-raise3d.com
-macinkajper.pl
-squerz.com
-portalshaniatwain.com
-youngandtheinvested.com
-arcadiawinds.com
-rojnews.com
-edsfze.com
-etnikk.com
-calvetagri.com
-iudex.ru
-atmos.atelier.de
-powerwings.nl
-wpguru.co.uk
-gamenightgods.com
-norwegan.mihei.ch
-navaldefence.gr
-seriesonline.pro
-ellasrl.it
-sallieborrink.com
-boxmusics.ir
-rebecamarianeacsu.ro
-navx-training.com
-farmakeio.com
-nancybolg.com
-auxiom.com
-solublefibersmoothie.com
-doubleyourlineguide.com
-textinchurch.com
-jplmedia.com.au
-cichaz.com
-ccga.com
-celinecuypers.be
-btini.net
-mater.com.ua
-mmcgbl.com
-footballnsw.com.au
-dolle-partner.de
-relaxfm.lt
-cartreatments.com
-cinewil.ch
-celinabostic.de
-whitewood.eu
-cpi-pain.com
-flyzyblog.net
-analoghifi.no
-tooltaking.com
-sportsatsea.nl
-cheapandbestshopforlife.com
-cozyarchitect.com
-xn--80aakeqfhfoqvpv.xn
-vplicei.org
-iptdnn.ru
-aseaglobal.com
-calzaturificioliberty.it
-kelseyinlondon.com
-tbone.se
-uganda-fixedmatches.com
-myanmarnewsfeed.xyz
-ama-studio.it
-gouvy.eu
-ritoler-keuchenstudio.at
-nothingbarredfitness.com
-adelaidekerbing.com.au
-geoschaller.de
-dom-invest.waw.pl
-avteurope.eu
-glassdocs.com
-dispensaryadventures.com
-atemberaubende-akzente.de
-tiksuper.com
-ivahid.com
-skidrowtorrents.com
-blackwealthsummit.com
-notanotherprogrammingblog.co.uk
-11null1.de
-priority-care.ca
-fasnacht.ch
-razvitiedetei.info
-einfachmalraus.net
-fondazione.studioata.com
-aaronzonka.com
-cookcountyhealth.org
-networthplanet.com
-gameinpost.com
-gamiplay.ru
-sysopro.com
-casapetejardim.com.br
-wmmr.com
-wct-witcom.nl
-ourdavie.com
-manndesign.dk
-bialpro.pro
-motiivilehti.fi
-proyectopuente.com.mx
-radiobau.it
-polar.ir
-ileifa.org
-logostan.pl
-beambreaking.co.uk
-yaaracacao.co.il
-qabasnoor.com
-matbakhshop.com
-ayrunitedfc.co.uk
-akwam.news
-tinybackyardspaces.com
-pielegnacjatrawnika.pl
-egyptiandrugindex.com
-openwavecomp.com
-marytv.tv
-teplius.ru
-themacgo.com
+SELECT * FROM events WHERE "wsa_cs_url" ILIKE ANY (
+    '%hotheads.co.za%',
+    '%ledge.ai%',
+    '%americancompass.org%',
+    '%raise3d.com%',
+    '%macinkajper.pl%',
+    '%squerz.com%',
+    '%portalshaniatwain.com%',
+    '%youngandtheinvested.com%',
+    '%arcadiawinds.com%',
+    '%rojnews.com%',
+    '%edsfze.com%',
+    '%etnikk.com%',
+    '%calvetagri.com%',
+    '%iudex.ru%',
+    '%atmos.atelier.de%',
+    '%powerwings.nl%',
+    '%wpguru.co.uk%',
+    '%gamenightgods.com%',
+    '%norwegan.mihei.ch%',
+    '%navaldefence.gr%',
+    '%seriesonline.pro%',
+    '%ellasrl.it%',
+    '%sallieborrink.com%',
+    '%boxmusics.ir%',
+    '%rebecamarianeacsu.ro%',
+    '%navx-training.com%',
+    '%farmakeio.com%',
+    '%nancybolg.com%',
+    '%auxiom.com%',
+    '%solublefibersmoothie.com%',
+    '%doubleyourlineguide.com%',
+    '%textinchurch.com%',
+    '%jplmedia.com.au%',
+    '%cichaz.com%',
+    '%ccga.com%',
+    '%celinecuypers.be%',
+    '%btini.net%',
+    '%mater.com.ua%',
+    '%mmcgbl.com%',
+    '%footballnsw.com.au%',
+    '%dolle-partner.de%',
+    '%relaxfm.lt%',
+    '%cartreatments.com%',
+    '%cinewil.ch%',
+    '%celinabostic.de%',
+    '%whitewood.eu%',
+    '%cpi-pain.com%',
+    '%flyzyblog.net%',
+    '%analoghifi.no%',
+    '%tooltaking.com%',
+    '%sportsatsea.nl%',
+    '%cheapandbestshopforlife.com%',
+    '%cozyarchitect.com%',
+    '%xn--80aakeqfhfoqvpv.xn%',
+    '%vplicei.org%',
+    '%iptdnn.ru%',
+    '%aseaglobal.com%',
+    '%calzaturificioliberty.it%',
+    '%kelseyinlondon.com%',
+    '%tbone.se%',
+    '%uganda-fixedmatches.com%',
+    '%myanmarnewsfeed.xyz%',
+    '%ama-studio.it%',
+    '%gouvy.eu%',
+    '%ritoler-keuchenstudio.at%',
+    '%nothingbarredfitness.com%',
+    '%adelaidekerbing.com.au%',
+    '%geoschaller.de%',
+    '%dom-invest.waw.pl%',
+    '%avteurope.eu%',
+    '%glassdocs.com%',
+    '%dispensaryadventures.com%',
+    '%atemberaubende-akzente.de%',
+    '%tiksuper.com%',
+    '%ivahid.com%',
+    '%skidrowtorrents.com%',
+    '%blackwealthsummit.com%',
+    '%notanotherprogrammingblog.co.uk%',
+    '%11null1.de%',
+    '%priority-care.ca%',
+    '%fasnacht.ch%',
+    '%razvitiedetei.info%',
+    '%einfachmalraus.net%',
+    '%fondazione.studioata.com%',
+    '%aaronzonka.com%',
+    '%cookcountyhealth.org%',
+    '%networthplanet.com%',
+    '%gameinpost.com%',
+    '%gamiplay.ru%',
+    '%sysopro.com%',
+    '%casapetejardim.com.br%',
+    '%wmmr.com%',
+    '%wct-witcom.nl%',
+    '%ourdavie.com%',
+    '%manndesign.dk%',
+    '%bialpro.pro%',
+    '%motiivilehti.fi%',
+    '%proyectopuente.com.mx%',
+    '%radiobau.it%',
+    '%polar.ir%',
+    '%ileifa.org%',
+    '%logostan.pl%',
+    '%beambreaking.co.uk%',
+    '%yaaracacao.co.il%',
+    '%qabasnoor.com%',
+    '%matbakhshop.com%',
+    '%ayrunitedfc.co.uk%',
+    '%akwam.news%',
+    '%tinybackyardspaces.com%',
+    '%pielegnacjatrawnika.pl%',
+    '%egyptiandrugindex.com%',
+    '%openwavecomp.com%',
+    '%marytv.tv%',
+    '%teplius.ru%',
+    '%themacgo.com%'
+)
