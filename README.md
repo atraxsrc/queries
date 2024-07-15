@@ -1,117 +1,116 @@
-SELECT * FROM events WHERE "wsa_cs_url" ILIKE ANY (
-    '%hotheads.co.za%',
-    '%ledge.ai%',
-    '%americancompass.org%',
-    '%raise3d.com%',
-    '%macinkajper.pl%',
-    '%squerz.com%',
-    '%portalshaniatwain.com%',
-    '%youngandtheinvested.com%',
-    '%arcadiawinds.com%',
-    '%rojnews.com%',
-    '%edsfze.com%',
-    '%etnikk.com%',
-    '%calvetagri.com%',
-    '%iudex.ru%',
-    '%atmos.atelier.de%',
-    '%powerwings.nl%',
-    '%wpguru.co.uk%',
-    '%gamenightgods.com%',
-    '%norwegan.mihei.ch%',
-    '%navaldefence.gr%',
-    '%seriesonline.pro%',
-    '%ellasrl.it%',
-    '%sallieborrink.com%',
-    '%boxmusics.ir%',
-    '%rebecamarianeacsu.ro%',
-    '%navx-training.com%',
-    '%farmakeio.com%',
-    '%nancybolg.com%',
-    '%auxiom.com%',
-    '%solublefibersmoothie.com%',
-    '%doubleyourlineguide.com%',
-    '%textinchurch.com%',
-    '%jplmedia.com.au%',
-    '%cichaz.com%',
-    '%ccga.com%',
-    '%celinecuypers.be%',
-    '%btini.net%',
-    '%mater.com.ua%',
-    '%mmcgbl.com%',
-    '%footballnsw.com.au%',
-    '%dolle-partner.de%',
-    '%relaxfm.lt%',
-    '%cartreatments.com%',
-    '%cinewil.ch%',
-    '%celinabostic.de%',
-    '%whitewood.eu%',
-    '%cpi-pain.com%',
-    '%flyzyblog.net%',
-    '%analoghifi.no%',
-    '%tooltaking.com%',
-    '%sportsatsea.nl%',
-    '%cheapandbestshopforlife.com%',
-    '%cozyarchitect.com%',
-    '%xn--80aakeqfhfoqvpv.xn%',
-    '%vplicei.org%',
-    '%iptdnn.ru%',
-    '%aseaglobal.com%',
-    '%calzaturificioliberty.it%',
-    '%kelseyinlondon.com%',
-    '%tbone.se%',
-    '%uganda-fixedmatches.com%',
-    '%myanmarnewsfeed.xyz%',
-    '%ama-studio.it%',
-    '%gouvy.eu%',
-    '%ritoler-keuchenstudio.at%',
-    '%nothingbarredfitness.com%',
-    '%adelaidekerbing.com.au%',
-    '%geoschaller.de%',
-    '%dom-invest.waw.pl%',
-    '%avteurope.eu%',
-    '%glassdocs.com%',
-    '%dispensaryadventures.com%',
-    '%atemberaubende-akzente.de%',
-    '%tiksuper.com%',
-    '%ivahid.com%',
-    '%skidrowtorrents.com%',
-    '%blackwealthsummit.com%',
-    '%notanotherprogrammingblog.co.uk%',
-    '%11null1.de%',
-    '%priority-care.ca%',
-    '%fasnacht.ch%',
-    '%razvitiedetei.info%',
-    '%einfachmalraus.net%',
-    '%fondazione.studioata.com%',
-    '%aaronzonka.com%',
-    '%cookcountyhealth.org%',
-    '%networthplanet.com%',
-    '%gameinpost.com%',
-    '%gamiplay.ru%',
-    '%sysopro.com%',
-    '%casapetejardim.com.br%',
-    '%wmmr.com%',
-    '%wct-witcom.nl%',
-    '%ourdavie.com%',
-    '%manndesign.dk%',
-    '%bialpro.pro%',
-    '%motiivilehti.fi%',
-    '%proyectopuente.com.mx%',
-    '%radiobau.it%',
-    '%polar.ir%',
-    '%ileifa.org%',
-    '%logostan.pl%',
-    '%beambreaking.co.uk%',
-    '%yaaracacao.co.il%',
-    '%qabasnoor.com%',
-    '%matbakhshop.com%',
-    '%ayrunitedfc.co.uk%',
-    '%akwam.news%',
-    '%tinybackyardspaces.com%',
-    '%pielegnacjatrawnika.pl%',
-    '%egyptiandrugindex.com%',
-    '%openwavecomp.com%',
-    '%marytv.tv%',
-    '%teplius.ru%',
-    '%themacgo.com%'
-)
+SELECT * FROM events WHERE 
+"wsa_cs_url" ILIKE '%hotheads.co.za%' OR
+"wsa_cs_url" ILIKE '%ledge.ai%' OR
+"wsa_cs_url" ILIKE '%americancompass.org%' OR
+"wsa_cs_url" ILIKE '%raise3d.com%' OR
+"wsa_cs_url" ILIKE '%macinkajper.pl%' OR
+"wsa_cs_url" ILIKE '%squerz.com%' OR
+"wsa_cs_url" ILIKE '%portalshaniatwain.com%' OR
+"wsa_cs_url" ILIKE '%youngandtheinvested.com%' OR
+"wsa_cs_url" ILIKE '%arcadiawinds.com%' OR
+"wsa_cs_url" ILIKE '%rojnews.com%' OR
+"wsa_cs_url" ILIKE '%edsfze.com%' OR
+"wsa_cs_url" ILIKE '%etnikk.com%' OR
+"wsa_cs_url" ILIKE '%calvetagri.com%' OR
+"wsa_cs_url" ILIKE '%iudex.ru%' OR
+"wsa_cs_url" ILIKE '%atmos.atelier.de%' OR
+"wsa_cs_url" ILIKE '%powerwings.nl%' OR
+"wsa_cs_url" ILIKE '%wpguru.co.uk%' OR
+"wsa_cs_url" ILIKE '%gamenightgods.com%' OR
+"wsa_cs_url" ILIKE '%norwegan.mihei.ch%' OR
+"wsa_cs_url" ILIKE '%navaldefence.gr%' OR
+"wsa_cs_url" ILIKE '%seriesonline.pro%' OR
+"wsa_cs_url" ILIKE '%ellasrl.it%' OR
+"wsa_cs_url" ILIKE '%sallieborrink.com%' OR
+"wsa_cs_url" ILIKE '%boxmusics.ir%' OR
+"wsa_cs_url" ILIKE '%rebecamarianeacsu.ro%' OR
+"wsa_cs_url" ILIKE '%navx-training.com%' OR
+"wsa_cs_url" ILIKE '%farmakeio.com%' OR
+"wsa_cs_url" ILIKE '%nancybolg.com%' OR
+"wsa_cs_url" ILIKE '%auxiom.com%' OR
+"wsa_cs_url" ILIKE '%solublefibersmoothie.com%' OR
+"wsa_cs_url" ILIKE '%doubleyourlineguide.com%' OR
+"wsa_cs_url" ILIKE '%textinchurch.com%' OR
+"wsa_cs_url" ILIKE '%jplmedia.com.au%' OR
+"wsa_cs_url" ILIKE '%cichaz.com%' OR
+"wsa_cs_url" ILIKE '%ccga.com%' OR
+"wsa_cs_url" ILIKE '%celinecuypers.be%' OR
+"wsa_cs_url" ILIKE '%btini.net%' OR
+"wsa_cs_url" ILIKE '%mater.com.ua%' OR
+"wsa_cs_url" ILIKE '%mmcgbl.com%' OR
+"wsa_cs_url" ILIKE '%footballnsw.com.au%' OR
+"wsa_cs_url" ILIKE '%dolle-partner.de%' OR
+"wsa_cs_url" ILIKE '%relaxfm.lt%' OR
+"wsa_cs_url" ILIKE '%cartreatments.com%' OR
+"wsa_cs_url" ILIKE '%cinewil.ch%' OR
+"wsa_cs_url" ILIKE '%celinabostic.de%' OR
+"wsa_cs_url" ILIKE '%whitewood.eu%' OR
+"wsa_cs_url" ILIKE '%cpi-pain.com%' OR
+"wsa_cs_url" ILIKE '%flyzyblog.net%' OR
+"wsa_cs_url" ILIKE '%analoghifi.no%' OR
+"wsa_cs_url" ILIKE '%tooltaking.com%' OR
+"wsa_cs_url" ILIKE '%sportsatsea.nl%' OR
+"wsa_cs_url" ILIKE '%cheapandbestshopforlife.com%' OR
+"wsa_cs_url" ILIKE '%cozyarchitect.com%' OR
+"wsa_cs_url" ILIKE '%xn--80aakeqfhfoqvpv.xn%' OR
+"wsa_cs_url" ILIKE '%vplicei.org%' OR
+"wsa_cs_url" ILIKE '%iptdnn.ru%' OR
+"wsa_cs_url" ILIKE '%aseaglobal.com%' OR
+"wsa_cs_url" ILIKE '%calzaturificioliberty.it%' OR
+"wsa_cs_url" ILIKE '%kelseyinlondon.com%' OR
+"wsa_cs_url" ILIKE '%tbone.se%' OR
+"wsa_cs_url" ILIKE '%uganda-fixedmatches.com%' OR
+"wsa_cs_url" ILIKE '%myanmarnewsfeed.xyz%' OR
+"wsa_cs_url" ILIKE '%ama-studio.it%' OR
+"wsa_cs_url" ILIKE '%gouvy.eu%' OR
+"wsa_cs_url" ILIKE '%ritoler-keuchenstudio.at%' OR
+"wsa_cs_url" ILIKE '%nothingbarredfitness.com%' OR
+"wsa_cs_url" ILIKE '%adelaidekerbing.com.au%' OR
+"wsa_cs_url" ILIKE '%geoschaller.de%' OR
+"wsa_cs_url" ILIKE '%dom-invest.waw.pl%' OR
+"wsa_cs_url" ILIKE '%avteurope.eu%' OR
+"wsa_cs_url" ILIKE '%glassdocs.com%' OR
+"wsa_cs_url" ILIKE '%dispensaryadventures.com%' OR
+"wsa_cs_url" ILIKE '%atemberaubende-akzente.de%' OR
+"wsa_cs_url" ILIKE '%tiksuper.com%' OR
+"wsa_cs_url" ILIKE '%ivahid.com%' OR
+"wsa_cs_url" ILIKE '%skidrowtorrents.com%' OR
+"wsa_cs_url" ILIKE '%blackwealthsummit.com%' OR
+"wsa_cs_url" ILIKE '%notanotherprogrammingblog.co.uk%' OR
+"wsa_cs_url" ILIKE '%11null1.de%' OR
+"wsa_cs_url" ILIKE '%priority-care.ca%' OR
+"wsa_cs_url" ILIKE '%fasnacht.ch%' OR
+"wsa_cs_url" ILIKE '%razvitiedetei.info%' OR
+"wsa_cs_url" ILIKE '%einfachmalraus.net%' OR
+"wsa_cs_url" ILIKE '%fondazione.studioata.com%' OR
+"wsa_cs_url" ILIKE '%aaronzonka.com%' OR
+"wsa_cs_url" ILIKE '%cookcountyhealth.org%' OR
+"wsa_cs_url" ILIKE '%networthplanet.com%' OR
+"wsa_cs_url" ILIKE '%gameinpost.com%' OR
+"wsa_cs_url" ILIKE '%gamiplay.ru%' OR
+"wsa_cs_url" ILIKE '%sysopro.com%' OR
+"wsa_cs_url" ILIKE '%casapetejardim.com.br%' OR
+"wsa_cs_url" ILIKE '%wmmr.com%' OR
+"wsa_cs_url" ILIKE '%wct-witcom.nl%' OR
+"wsa_cs_url" ILIKE '%ourdavie.com%' OR
+"wsa_cs_url" ILIKE '%manndesign.dk%' OR
+"wsa_cs_url" ILIKE '%bialpro.pro%' OR
+"wsa_cs_url" ILIKE '%motiivilehti.fi%' OR
+"wsa_cs_url" ILIKE '%proyectopuente.com.mx%' OR
+"wsa_cs_url" ILIKE '%radiobau.it%' OR
+"wsa_cs_url" ILIKE '%polar.ir%' OR
+"wsa_cs_url" ILIKE '%ileifa.org%' OR
+"wsa_cs_url" ILIKE '%logostan.pl%' OR
+"wsa_cs_url" ILIKE '%beambreaking.co.uk%' OR
+"wsa_cs_url" ILIKE '%yaaracacao.co.il%' OR
+"wsa_cs_url" ILIKE '%qabasnoor.com%' OR
+"wsa_cs_url" ILIKE '%matbakhshop.com%' OR
+"wsa_cs_url" ILIKE '%ayrunitedfc.co.uk%' OR
+"wsa_cs_url" ILIKE '%akwam.news%' OR
+"wsa_cs_url" ILIKE '%tinybackyardspaces.com%' OR
+"wsa_cs_url" ILIKE '%pielegnacjatrawnika.pl%' OR
+"wsa_cs_url" ILIKE '%egyptiandrugindex.com%' OR
+"wsa_cs_url" ILIKE '%openwavecomp.com%' OR
+"wsa_cs_url" ILIKE '%marytv.tv%' OR
+"wsa_cs_url" ILIKE '%teplius.ru%' OR
+"wsa_cs_url" ILIKE '%themacgo.com%'
