@@ -1,116 +1,61 @@
-SELECT * FROM events WHERE 
-"wsa_cs_url" LIKE '%://hotheads.co.za/%' OR
-"wsa_cs_url" LIKE '%://ledge.ai/%' OR
-"wsa_cs_url" LIKE '%://americancompass.org/%' OR
-"wsa_cs_url" LIKE '%://raise3d.com/%' OR
-"wsa_cs_url" LIKE '%://macinkajper.pl/%' OR
-"wsa_cs_url" LIKE '%://squerz.com/%' OR
-"wsa_cs_url" LIKE '%://portalshaniatwain.com/%' OR
-"wsa_cs_url" LIKE '%://youngandtheinvested.com/%' OR
-"wsa_cs_url" LIKE '%://arcadiawinds.com/%' OR
-"wsa_cs_url" LIKE '%://rojnews.com/%' OR
-"wsa_cs_url" LIKE '%://edsfze.com/%' OR
-"wsa_cs_url" LIKE '%://etnikk.com/%' OR
-"wsa_cs_url" LIKE '%://calvetagri.com/%' OR
-"wsa_cs_url" LIKE '%://iudex.ru/%' OR
-"wsa_cs_url" LIKE '%://atmos.atelier.de/%' OR
-"wsa_cs_url" LIKE '%://powerwings.nl/%' OR
-"wsa_cs_url" LIKE '%://wpguru.co.uk/%' OR
-"wsa_cs_url" LIKE '%://gamenightgods.com/%' OR
-"wsa_cs_url" LIKE '%://norwegan.mihei.ch/%' OR
-"wsa_cs_url" LIKE '%://navaldefence.gr/%' OR
-"wsa_cs_url" LIKE '%://seriesonline.pro/%' OR
-"wsa_cs_url" LIKE '%://ellasrl.it/%' OR
-"wsa_cs_url" LIKE '%://sallieborrink.com/%' OR
-"wsa_cs_url" LIKE '%://boxmusics.ir/%' OR
-"wsa_cs_url" LIKE '%://rebecamarianeacsu.ro/%' OR
-"wsa_cs_url" LIKE '%://navx-training.com/%' OR
-"wsa_cs_url" LIKE '%://farmakeio.com/%' OR
-"wsa_cs_url" LIKE '%://nancybolg.com/%' OR
-"wsa_cs_url" LIKE '%://auxiom.com/%' OR
-"wsa_cs_url" LIKE '%://solublefibersmoothie.com/%' OR
-"wsa_cs_url" LIKE '%://doubleyourlineguide.com/%' OR
-"wsa_cs_url" LIKE '%://textinchurch.com/%' OR
-"wsa_cs_url" LIKE '%://jplmedia.com.au/%' OR
-"wsa_cs_url" LIKE '%://cichaz.com/%' OR
-"wsa_cs_url" LIKE '%://ccga.com/%' OR
-"wsa_cs_url" LIKE '%://celinecuypers.be/%' OR
-"wsa_cs_url" LIKE '%://btini.net/%' OR
-"wsa_cs_url" LIKE '%://mater.com.ua/%' OR
-"wsa_cs_url" LIKE '%://mmcgbl.com/%' OR
-"wsa_cs_url" LIKE '%://footballnsw.com.au/%' OR
-"wsa_cs_url" LIKE '%://dolle-partner.de/%' OR
-"wsa_cs_url" LIKE '%://relaxfm.lt/%' OR
-"wsa_cs_url" LIKE '%://cartreatments.com/%' OR
-"wsa_cs_url" LIKE '%://cinewil.ch/%' OR
-"wsa_cs_url" LIKE '%://celinabostic.de/%' OR
-"wsa_cs_url" LIKE '%://whitewood.eu/%' OR
-"wsa_cs_url" LIKE '%://cpi-pain.com/%' OR
-"wsa_cs_url" LIKE '%://flyzyblog.net/%' OR
-"wsa_cs_url" LIKE '%://analoghifi.no/%' OR
-"wsa_cs_url" LIKE '%://tooltaking.com/%' OR
-"wsa_cs_url" LIKE '%://sportsatsea.nl/%' OR
-"wsa_cs_url" LIKE '%://cheapandbestshopforlife.com/%' OR
-"wsa_cs_url" LIKE '%://cozyarchitect.com/%' OR
-"wsa_cs_url" LIKE '%://xn--80aakeqfhfoqvpv.xn/%' OR
-"wsa_cs_url" LIKE '%://vplicei.org/%' OR
-"wsa_cs_url" LIKE '%://iptdnn.ru/%' OR
-"wsa_cs_url" LIKE '%://aseaglobal.com/%' OR
-"wsa_cs_url" LIKE '%://calzaturificioliberty.it/%' OR
-"wsa_cs_url" LIKE '%://kelseyinlondon.com/%' OR
-"wsa_cs_url" LIKE '%://tbone.se/%' OR
-"wsa_cs_url" LIKE '%://uganda-fixedmatches.com/%' OR
-"wsa_cs_url" LIKE '%://myanmarnewsfeed.xyz/%' OR
-"wsa_cs_url" LIKE '%://ama-studio.it/%' OR
-"wsa_cs_url" LIKE '%://gouvy.eu/%' OR
-"wsa_cs_url" LIKE '%://ritoler-keuchenstudio.at/%' OR
-"wsa_cs_url" LIKE '%://nothingbarredfitness.com/%' OR
-"wsa_cs_url" LIKE '%://adelaidekerbing.com.au/%' OR
-"wsa_cs_url" LIKE '%://geoschaller.de/%' OR
-"wsa_cs_url" LIKE '%://dom-invest.waw.pl/%' OR
-"wsa_cs_url" LIKE '%://avteurope.eu/%' OR
-"wsa_cs_url" LIKE '%://glassdocs.com/%' OR
-"wsa_cs_url" LIKE '%://dispensaryadventures.com/%' OR
-"wsa_cs_url" LIKE '%://atemberaubende-akzente.de/%' OR
-"wsa_cs_url" LIKE '%://tiksuper.com/%' OR
-"wsa_cs_url" LIKE '%://ivahid.com/%' OR
-"wsa_cs_url" LIKE '%://skidrowtorrents.com/%' OR
-"wsa_cs_url" LIKE '%://blackwealthsummit.com/%' OR
-"wsa_cs_url" LIKE '%://notanotherprogrammingblog.co.uk/%' OR
-"wsa_cs_url" LIKE '%://11null1.de/%' OR
-"wsa_cs_url" LIKE '%://priority-care.ca/%' OR
-"wsa_cs_url" LIKE '%://fasnacht.ch/%' OR
-"wsa_cs_url" LIKE '%://razvitiedetei.info/%' OR
-"wsa_cs_url" LIKE '%://einfachmalraus.net/%' OR
-"wsa_cs_url" LIKE '%://fondazione.studioata.com/%' OR
-"wsa_cs_url" LIKE '%://aaronzonka.com/%' OR
-"wsa_cs_url" LIKE '%://cookcountyhealth.org/%' OR
-"wsa_cs_url" LIKE '%://networthplanet.com/%' OR
-"wsa_cs_url" LIKE '%://gameinpost.com/%' OR
-"wsa_cs_url" LIKE '%://gamiplay.ru/%' OR
-"wsa_cs_url" LIKE '%://sysopro.com/%' OR
-"wsa_cs_url" LIKE '%://casapetejardim.com.br/%' OR
-"wsa_cs_url" LIKE '%://wmmr.com/%' OR
-"wsa_cs_url" LIKE '%://wct-witcom.nl/%' OR
-"wsa_cs_url" LIKE '%://ourdavie.com/%' OR
-"wsa_cs_url" LIKE '%://manndesign.dk/%' OR
-"wsa_cs_url" LIKE '%://bialpro.pro/%' OR
-"wsa_cs_url" LIKE '%://motiivilehti.fi/%' OR
-"wsa_cs_url" LIKE '%://proyectopuente.com.mx/%' OR
-"wsa_cs_url" LIKE '%://radiobau.it/%' OR
-"wsa_cs_url" LIKE '%://polar.ir/%' OR
-"wsa_cs_url" LIKE '%://ileifa.org/%' OR
-"wsa_cs_url" LIKE '%://logostan.pl/%' OR
-"wsa_cs_url" LIKE '%://beambreaking.co.uk/%' OR
-"wsa_cs_url" LIKE '%://yaaracacao.co.il/%' OR
-"wsa_cs_url" LIKE '%://qabasnoor.com/%' OR
-"wsa_cs_url" LIKE '%://matbakhshop.com/%' OR
-"wsa_cs_url" LIKE '%://ayrunitedfc.co.uk/%' OR
-"wsa_cs_url" LIKE '%://akwam.news/%' OR
-"wsa_cs_url" LIKE '%://tinybackyardspaces.com/%' OR
-"wsa_cs_url" LIKE '%://pielegnacjatrawnika.pl/%' OR
-"wsa_cs_url" LIKE '%://egyptiandrugindex.com/%' OR
-"wsa_cs_url" LIKE '%://openwavecomp.com/%' OR
-"wsa_cs_url" LIKE '%://marytv.tv/%' OR
-"wsa_cs_url" LIKE '%://teplius.ru/%' OR
-"wsa_cs_url" LIKE '%://themacgo.com/%'
+ hxxp://crowdstrikestore[.]com[.]br/
+ hxxp://crowdstrike-bsod[.]com/
+ hxxp://crowdstrike[.]buzz/
+ hxxp://crowdstrike[.]life/
+ hxxp://crowdstrike[.]live/
+ hxxp://crowdstrike[.]site/
+ hxxp://crowdstrike[.]technology/
+ hxxp://crowdstrike[.]us[.]org/
+ hxxp://crowdstrike0day[.]com/
+ hxxp://crowdstrikebluescreen[.]com/
+ hxxp://crowdstrikebsod[.]com/
+ hxxp://crowdstrikeconnectingevents[.]com/
+ hxxp://crowdstrikeconnects[.]com/
+ hxxp://crowdstrikedoomsday[.]com/
+ hxxp://crowdstrikedown[.]site/
+ hxxp://crowdstrikeevents[.]com/
+ hxxp://crowdstrikeeventshub[.]com/
+ hxxp://crowdstrikeeventsplatform[.]com/
+ hxxp://crowdstrikeeventsplus[.]com/
+ hxxp://crowdstrikefix[.]com/
+ hxxp://crowdstrikeoptimizer[.]com/
+ hxxp://crowdstrikeredbird[.]com/
+ hxxp://crowdstrikestore[.]com[.]br/
+ hxxp://crowdstriketoken[.]com/
+ hxxp://crowdstrikewhisper[.]com
+hxxp://crowdstrikexdr[.]in/
+ hxxp://fix-crowdstrike-apocalypse[.]com/
+ hxxp://fix-crowdstrike-bsod[.]com/
+hxxp://microsoftcrowdstrike[.]com/
+hxxp://okta-crowdstrike[.]com/
+ hxxp://crowdstrike[.]us[.]org/
+hxxp://whatiscrowdstrike[.]com
+www[.]crowdstrike-falcon[.]online
+www[.]crowdstrike-helpdesk[.]com
+crowdstrikereport[.]com
+crowdstrikefix[.]zip
+crowdstrike[.]mightywind[.]com
+crowdstrikeclaim[.]com
+crowdstrikeoutage[.]com
+www[.]crowdstrikeoutage[.]com
+crowdstrikeupdate[.]com
+crowdstrikerecovery1[.]blob[.]core[.]windows[.]net
+crowdstrike[.]woccpa[.]com
+crowdstrike[.]es www[.]crowdstrokeme[.]me
+1512178658959801095[.]crowdstriek[.]com
+www[.]crowdstrikeclaim[.]com
+lab-crowdstrike-manage[.]stashaway[.]co
+crowdstrokeme[.]me crowdstrike-bsod[.]com
+crowdstrike0day[.]com
+crowdstrikebluescreen[.]com
+crowdstrikedoomsday[.]com
+crowdstrikedown[.]site
+crowdstrikefix[.]com
+crowdstriketoken[.]com
+crowdstuck[.]org fix-crowdstrike-apocalypse[.]com
+fix-crowdstrike-bsod[.]com
+microsoftcrowdstrike[.]com
+whatiscrowdstrike[.]com
+crowdfalcon-immed-update[.]com
+crowdstrikebsod[.]com
+crowdstrikeoutage[.]info
